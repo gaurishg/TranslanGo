@@ -139,7 +139,7 @@ function App() {
                   />
                 }
               >
-                <Router>
+                <Router basename="TranslanGo">
                   <Routes>
                     <Route path="/dashboard" element={<Dashboard />} />
                     <Route
