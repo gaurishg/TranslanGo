@@ -3,8 +3,8 @@ import { PropsWithChildren } from "react";
 
 const FillPageWithSidePic: React.FC<PropsWithChildren> = (props) => {
   return (
-    <Grid container sx={{ height: "100vh" }}>
-      <Grid
+    <Grid container sx={{ height: "100vh" }} justifyContent="center">
+      {/* <Grid
         item
         xs={false}
         sm={4}
@@ -20,7 +20,7 @@ const FillPageWithSidePic: React.FC<PropsWithChildren> = (props) => {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-      />
+      /> */}
       <Grid item xs={12} sm={8} md={5}>
         {props.children}
       </Grid>

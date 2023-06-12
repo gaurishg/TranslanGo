@@ -31,8 +31,9 @@ export default function WelcomePage() {
       container
       component="main"
       sx={{ height: "100vh", bgcolor: "primary.main" }}
+      justifyContent="center"
     >
-      <Grid
+      {/* <Grid
         item
         xs={false}
         sm={4}
@@ -48,12 +49,13 @@ export default function WelcomePage() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-      />
+      /> */}
       <Grid
         item
         xs={12}
         sm={8}
         md={5}
+        // style={{ display: "flex", alignItems: "center" }}
         component={Paper}
         elevation={6}
         bgcolor="primary.main"
