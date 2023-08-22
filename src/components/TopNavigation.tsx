@@ -56,7 +56,7 @@ function TopNavigation() {
           color="inherit"
           aria-label="menu"
           sx={{ mr: 2 }}
-          onClick={() => navigate('..')}
+          onClick={() => navigate('/dashboard')}
         >
           <ArrowBackIosIcon />
         </IconButton>

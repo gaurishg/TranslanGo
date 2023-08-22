@@ -108,10 +108,10 @@ export default function PreviewImage() {
           // height="400"
           image={rawurl}
           alt="A Photo"
-          sx={{ padding: "1em 1em 0 1em", objectFit: "contain" }}
+          sx={{ padding: "1em 1em 0 1em", objectFit: "contain", maxWidth: "600px", margin: "auto" }}
         />
         <CardActions sx={{ m: 2, display: "flex", justifyContent: "flex-end" }}>
-          <Button
+          {/* <Button
             size="small"
             variant="outlined"
             component="label"
@@ -124,7 +124,7 @@ export default function PreviewImage() {
               onChange={changeImage}
             />
             {t("CHANGE_PICTURE")}
-          </Button>
+          </Button> */}
           <LoadingButton
             size="small"
             color="secondary"
